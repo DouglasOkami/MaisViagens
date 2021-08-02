@@ -11,8 +11,11 @@
 		B60C7EFA26B41BDA008F2F6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60C7EF926B41BDA008F2F6B /* SceneDelegate.swift */; };
 		B60C7EFC26B41BDA008F2F6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60C7EFB26B41BDA008F2F6B /* ViewController.swift */; };
 		B60C7EFF26B41BDA008F2F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60C7EFD26B41BDA008F2F6B /* Main.storyboard */; };
-		B60C7F0126B41BE3008F2F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60C7F0026B41BE3008F2F6B /* Assets.xcassets */; };
 		B60C7F0426B41BE3008F2F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60C7F0226B41BE3008F2F6B /* LaunchScreen.storyboard */; };
+		B60C7F0D26B4331C008F2F6B /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60C7F0C26B4331C008F2F6B /* Viagem.swift */; };
+		B60C7F1126B435A0008F2F6B /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60C7F1026B435A0008F2F6B /* ViagemDAO.swift */; };
+		B60C7F1426B476C2008F2F6B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60C7F1326B476C1008F2F6B /* TableViewCell.swift */; };
+		B670CA4C26B770BF00C50D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B670CA4B26B770BF00C50D96 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +24,12 @@
 		B60C7EF926B41BDA008F2F6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B60C7EFB26B41BDA008F2F6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B60C7EFE26B41BDA008F2F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B60C7F0026B41BE3008F2F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B60C7F0326B41BE3008F2F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60C7F0526B41BE3008F2F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60C7F0C26B4331C008F2F6B /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		B60C7F1026B435A0008F2F6B /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViagemDAO.swift; path = ../../ViagemDAO.swift; sourceTree = "<group>"; };
+		B60C7F1326B476C1008F2F6B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B670CA4B26B770BF00C50D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				B60C7EF726B41BDA008F2F6B /* AppDelegate.swift */,
 				B60C7EF926B41BDA008F2F6B /* SceneDelegate.swift */,
 				B60C7EFB26B41BDA008F2F6B /* ViewController.swift */,
+				B60C7F1326B476C1008F2F6B /* TableViewCell.swift */,
+				B60C7F0C26B4331C008F2F6B /* Viagem.swift */,
+				B60C7F1026B435A0008F2F6B /* ViagemDAO.swift */,
 				B60C7EFD26B41BDA008F2F6B /* Main.storyboard */,
-				B60C7F0026B41BE3008F2F6B /* Assets.xcassets */,
 				B60C7F0226B41BE3008F2F6B /* LaunchScreen.storyboard */,
 				B60C7F0526B41BE3008F2F6B /* Info.plist */,
+				B670CA4B26B770BF00C50D96 /* Assets.xcassets */,
 			);
 			path = "+ Viagens";
 			sourceTree = "<group>";
@@ -125,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60C7F0426B41BE3008F2F6B /* LaunchScreen.storyboard in Resources */,
-				B60C7F0126B41BE3008F2F6B /* Assets.xcassets in Resources */,
+				B670CA4C26B770BF00C50D96 /* Assets.xcassets in Resources */,
 				B60C7EFF26B41BDA008F2F6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60C7F0D26B4331C008F2F6B /* Viagem.swift in Sources */,
+				B60C7F1126B435A0008F2F6B /* ViagemDAO.swift in Sources */,
 				B60C7EFC26B41BDA008F2F6B /* ViewController.swift in Sources */,
+				B60C7F1426B476C2008F2F6B /* TableViewCell.swift in Sources */,
 				B60C7EF826B41BDA008F2F6B /* AppDelegate.swift in Sources */,
 				B60C7EFA26B41BDA008F2F6B /* SceneDelegate.swift in Sources */,
 			);
