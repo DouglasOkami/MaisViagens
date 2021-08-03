@@ -9,4 +9,12 @@ import UIKit
 
 class PacotesViagemCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var imagemViagem: UIImageView!
+    
+    @IBOutlet weak var labelTitulo: UILabel!
+    
+    @IBOutlet weak var labelQuantidadeDias: UILabel!
+    
+    @IBOutlet weak var labelPreco: UILabel!
+    
 }
