@@ -15,6 +15,7 @@
 		B60C7F0D26B4331C008F2F6B /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60C7F0C26B4331C008F2F6B /* Viagem.swift */; };
 		B60C7F1126B435A0008F2F6B /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60C7F1026B435A0008F2F6B /* ViagemDAO.swift */; };
 		B60C7F1426B476C2008F2F6B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60C7F1326B476C1008F2F6B /* TableViewCell.swift */; };
+		B64BD47226B95CF200E2BB66 /* PacotesViagemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64BD47126B95CF200E2BB66 /* PacotesViagemCollectionViewCell.swift */; };
 		B66BB99F26B88654002F0E58 /* PacotesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66BB99E26B88654002F0E58 /* PacotesViagensViewController.swift */; };
 		B670CA4C26B770BF00C50D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B670CA4B26B770BF00C50D96 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		B60C7F0C26B4331C008F2F6B /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		B60C7F1026B435A0008F2F6B /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViagemDAO.swift; sourceTree = "<group>"; };
 		B60C7F1326B476C1008F2F6B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B64BD47126B95CF200E2BB66 /* PacotesViagemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagemCollectionViewCell.swift; sourceTree = "<group>"; };
 		B66BB99E26B88654002F0E58 /* PacotesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagensViewController.swift; sourceTree = "<group>"; };
 		B670CA4B26B770BF00C50D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 		B66BB99D26B885EC002F0E58 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B64BD47126B95CF200E2BB66 /* PacotesViagemCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				B60C7F1426B476C2008F2F6B /* TableViewCell.swift in Sources */,
 				B60C7EF826B41BDA008F2F6B /* AppDelegate.swift in Sources */,
 				B60C7EFA26B41BDA008F2F6B /* SceneDelegate.swift in Sources */,
+				B64BD47226B95CF200E2BB66 /* PacotesViagemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
