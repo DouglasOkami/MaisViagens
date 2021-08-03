@@ -215,10 +215,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="78.260869565217391"/>
         </scene>
-        <!--View Controller-->
+        <!--Pacotes Viagens View Controller-->
         <scene sceneID="iOm-S8-f7m">
             <objects>
-                <viewController id="qr4-ig-e6M" sceneMemberID="viewController">
+                <viewController id="qr4-ig-e6M" customClass="PacotesViagensViewController" customModule="__Viagens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pV6-Cc-Iqq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -233,7 +233,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iWs-ZD-YfC">
-                                        <rect key="frame" x="0.0" y="20.333333333333371" width="414" height="30"/>
+                                        <rect key="frame" x="0.0" y="20.333333333333336" width="414" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="bDr-9N-Kfk"/>
                                         </constraints>
@@ -241,7 +241,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 pacotes encontrados" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97P-dZ-fqF">
-                                        <rect key="frame" x="0.0" y="50.333333333333371" width="414" height="20.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="50.333333333333329" width="414" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
