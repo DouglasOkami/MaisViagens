@@ -19,6 +19,7 @@
 		B66BB99F26B88654002F0E58 /* PacotesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66BB99E26B88654002F0E58 /* PacotesViagensViewController.swift */; };
 		B670CA4C26B770BF00C50D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B670CA4B26B770BF00C50D96 /* Assets.xcassets */; };
 		B6DA94E526BC0AEF00E9277E /* DetalhesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DA94E426BC0AEF00E9277E /* DetalhesViagensViewController.swift */; };
+		B6DA94E926BC1B6400E9277E /* PacoteViagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DA94E826BC1B6400E9277E /* PacoteViagem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B66BB99E26B88654002F0E58 /* PacotesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagensViewController.swift; sourceTree = "<group>"; };
 		B670CA4B26B770BF00C50D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6DA94E426BC0AEF00E9277E /* DetalhesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViagensViewController.swift; sourceTree = "<group>"; };
+		B6DA94E826BC1B6400E9277E /* PacoteViagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B60C7F0C26B4331C008F2F6B /* Viagem.swift */,
+				B6DA94E826BC1B6400E9277E /* PacoteViagem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				B6DA94E526BC0AEF00E9277E /* DetalhesViagensViewController.swift in Sources */,
 				B60C7EFC26B41BDA008F2F6B /* ViewController.swift in Sources */,
 				B60C7F1426B476C2008F2F6B /* TableViewCell.swift in Sources */,
+				B6DA94E926BC1B6400E9277E /* PacoteViagem.swift in Sources */,
 				B60C7EF826B41BDA008F2F6B /* AppDelegate.swift in Sources */,
 				B60C7EFA26B41BDA008F2F6B /* SceneDelegate.swift in Sources */,
 				B64BD47226B95CF200E2BB66 /* PacotesViagemCollectionViewCell.swift in Sources */,
