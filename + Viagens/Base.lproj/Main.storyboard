@@ -355,28 +355,56 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8pQ-zj-XsI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="552" y="86"/>
+            <point key="canvasLocation" x="501" y="86"/>
         </scene>
-        <!--View Controller-->
+        <!--Detalhes Viagens View Controller-->
         <scene sceneID="fCx-PB-Vn4">
             <objects>
-                <viewController id="AWK-Ya-x7g" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detalhes" id="AWK-Ya-x7g" customClass="DetalhesViagensViewController" customModule="__Viagens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XzX-Ge-b95">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A6T-6Y-JdA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="185"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bUg-x1-Xr4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="egc-cz-MxQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="185"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PORTO DE GALINHAS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hid-fX-ina">
+                                        <rect key="frame" x="0.0" y="184.99999999999997" width="414" height="504.33333333333326"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="23"/>
+                                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pacotes: Hotel + café da manhã" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gE-zR-Htf">
+                                        <rect key="frame" x="0.0" y="689.33333333333337" width="414" height="23.333333333333371"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7 dias" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hP3-Az-PjL">
+                                        <rect key="frame" x="0.0" y="712.66666666666663" width="414" height="23.333333333333371"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DRI-VY-GEI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bUg-x1-Xr4" firstAttribute="bottom" secondItem="DRI-VY-GEI" secondAttribute="bottom" id="7Hl-6t-H6e"/>
+                            <constraint firstItem="bUg-x1-Xr4" firstAttribute="trailing" secondItem="DRI-VY-GEI" secondAttribute="trailing" id="gIX-RT-IVz"/>
+                            <constraint firstItem="bUg-x1-Xr4" firstAttribute="leading" secondItem="DRI-VY-GEI" secondAttribute="leading" id="ivg-IU-hLw"/>
+                            <constraint firstItem="bUg-x1-Xr4" firstAttribute="top" secondItem="DRI-VY-GEI" secondAttribute="top" id="o8s-fS-FKN"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="np9-KK-jpy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1269.5652173913045" y="85.59782608695653"/>
+            <point key="canvasLocation" x="1209" y="86"/>
         </scene>
     </scenes>
     <resources>
