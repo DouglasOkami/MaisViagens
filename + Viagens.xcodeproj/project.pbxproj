@@ -68,9 +68,9 @@
 			children = (
 				B60C7EF726B41BDA008F2F6B /* AppDelegate.swift */,
 				B60C7EF926B41BDA008F2F6B /* SceneDelegate.swift */,
+				B62C194A26B81C9B001C925B /* Model */,
 				B62C194B26B81CD6001C925B /* Home */,
 				B66BB99B26B885AF002F0E58 /* Pacotes */,
-				B62C194A26B81C9B001C925B /* Model */,
 				B62C195026B81D85001C925B /* ViagemDAO */,
 				B60C7EFD26B41BDA008F2F6B /* Main.storyboard */,
 				B60C7F0226B41BE3008F2F6B /* LaunchScreen.storyboard */,
