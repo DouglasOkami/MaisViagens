@@ -509,6 +509,13 @@
                             <constraint firstItem="bUg-x1-Xr4" firstAttribute="top" secondItem="DRI-VY-GEI" secondAttribute="top" id="o8s-fS-FKN"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imagemPacoteViagem" destination="egc-cz-MxQ" id="MYb-eC-D22"/>
+                        <outlet property="labelDataViagem" destination="U87-NP-CxH" id="AmX-2B-c4r"/>
+                        <outlet property="labelDescricaoPacoteViagem" destination="hP3-Az-PjL" id="qcZ-jX-1Gf"/>
+                        <outlet property="labelPrecoViagem" destination="IE2-2Z-o6u" id="0Em-bh-JJj"/>
+                        <outlet property="labelTituloPacoteViagem" destination="Hid-fX-ina" id="Sgl-TX-BH6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="np9-KK-jpy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

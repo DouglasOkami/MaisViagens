@@ -9,21 +9,21 @@ import UIKit
 
 class DetalhesViagensViewController: UIViewController {
 
+    @IBOutlet weak var imagemPacoteViagem: UIImageView!
+    @IBOutlet weak var labelTituloPacoteViagem: UILabel!
+    @IBOutlet weak var labelDescricaoPacoteViagem: UILabel!
+    @IBOutlet weak var labelDataViagem: UILabel!
+    @IBOutlet weak var labelPrecoPacoteViagem: UILabel!
+    
+    var pacoteSelecionado:PacoteViagem? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(pacoteSelecionado!.viagem.titulo)
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
-    */
-
 }
